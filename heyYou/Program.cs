@@ -22,7 +22,6 @@
             questions.Add(3, "Have you traveled to another country?");
             questions.Add(4, "Do you know how to code?");
 
-
             int randomQuestionsKey = new Random().Next(1, questions.Count + 1);
             Console.Out.WriteLine("What's your name?");
             string name = Console.ReadLine();
